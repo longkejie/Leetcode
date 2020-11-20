@@ -1,0 +1,107 @@
+# 标签（分标签进行刷题记录）
+
+## 1.数组
+
+#### [面试题 17.10. 主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci/)
+
+数组中占比超过一半的元素称之为主要元素。给定一个整数数组，找到它的主要元素。若没有，返回-1。
+
+示例 1：
+
+输入：[1,2,5,9,5,9,5,5,5]
+输出：5
+
+
+示例 2：
+
+输入：[3,2]
+输出：-1
+
+
+示例 3：
+
+输入：[2,2,1,1,1,2,2]
+输出：2
+
+
+说明：
+你有办法在时间复杂度为 O(N)，空间复杂度为 O(1) 内完成吗？
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/find-majority-element-lcci
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+
+
+#### 思路：
+
+##### a.哈希表
+
+使用哈希表(unordered_map)来存取每个数的个数，然后遍历一遍，就能找到个数大于数组长度一半的数了。
+
+**时间复杂度：O(N)**
+
+**空间复杂度：O(N)**
+
+###### 代码
+
+```cpp
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+       unordered_map<int,int> mmap;
+       for (int i : nums) {
+           mmap[i]++;
+           if (mmap[i] > nums.size() / 2) {
+               return i;
+           }
+       }
+       return -1;
+    }
+};
+```
+
+
+
+##### b.摩尔投票法
+
+设置一个众数major,一个计数器cnt, 初始时major任意值，cnt=0,
+从下标0开始枚举数组，如果cnt=0，major=nums[i],
+如果cnt!=0,如果nums[i] == major，cnt++，否则cnt--;
+继续循环，循环结束后如果cnt<=0，不存在众数，
+如果cnt>0,要进行一轮数组遍历，判断major是否为众数。
+major不是众数就没有众数。
+**时间复杂度：O(N)**	需遍历整个数组
+
+**空间复杂度：O(1)**	只需要维护一个major和cnt
+
+###### 代码
+
+```cpp
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        if (nums.size() == 0) {
+            return -1;
+        }
+        int cnt = 0, most, temp = 0;
+        for (auto i : nums) {           
+            if (cnt == 0) {
+                most = i;
+            }
+            if (i == most) {
+                cnt++;
+            }else {
+                cnt--;
+            }
+        }
+        if (cnt <= 0) return -1;
+        for (auto i : nums) {
+            if (i == most) temp++;
+           if (temp > nums.size() / 2) return most; 
+        }
+        return -1;
+    }
+};
+```
+
