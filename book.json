@@ -1,0 +1,52 @@
+{
+	"title": "Summary",
+	"plugins" : [
+		"expandable-chapters",
+		"github-buttons",
+		"editlink",
+		"copy-code-button",
+		"page-footer-ex",
+		"anchor-navigation-ex",
+		"expandable-chapters-small",
+		"prism", 
+		"-highlight",
+		"-lunr", 
+		"-search", 
+		"search-pro",
+		"donate",
+		"splitter"
+	],
+	"pluginsConfig": {
+		"editlink": {
+			"base": "https://github.com/longkejie/Leetcode/tree/main",
+			"label": "Edit This Page"
+		},	
+		"github-buttons": {
+			"buttons": [{
+				"user": "longkejie",
+				"repo": "Leetcode",
+				"type": "star",
+				"size": "small"
+			}]
+		},	
+		"page-footer-ex": {
+            "copyright": "By [longkejie](https://github.com/longkejie)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布",
+            "markdown": true,
+            "update_label": "<i>updated</i>",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+		},	
+		"prism": {
+			"css": ["prismjs/themes/prism-solarizedlight.css"],
+			"lang": {"flow": "typescript"}
+		},	
+		"donate": {
+			"wechat": "https://gitee.com/long_kejie/image/raw/master/IMG_7427(20201122-223206).JPG",
+			"alipay": "https://gitee.com/long_kejie/image/raw/master/IMG_7429(20201122-223221).JPG",
+			"title": "",
+			"button": "Donate",
+			"alipayText": "支付宝捐赠",
+			"wechatText": "微信捐赠"
+		}
+	},
+	"ignores" : ["_book", "node_modules"]
+}	
