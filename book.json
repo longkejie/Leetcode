@@ -35,6 +35,9 @@
             "update_label": "<i>updated</i>",
             "update_format": "YYYY-MM-DD HH:mm:ss"
 		},	
+		"anchor-navigation-ex" : {
+			"showLevel" : false
+		},
 		"prism": {
 			"css": ["prismjs/themes/prism-solarizedlight.css"],
 			"lang": {"flow": "typescript"}
