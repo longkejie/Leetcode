@@ -4,11 +4,7 @@
 
 参考以下这颗二叉搜索树：
 
- 	 5
-	/ \
-   2   6
-  / \
- 1   3
+![image-20201209164243671](https://gitee.com/long_kejie/image/raw/master/image-20201209164243671.png)
 
 示例 1：
 
