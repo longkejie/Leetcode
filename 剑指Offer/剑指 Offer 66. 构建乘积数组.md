@@ -36,16 +36,25 @@ a.length <= 100000
 
 算法流程：
 **初始化**：数组 B ，其中B[0]=1 ；辅助变量tmp=1 ；
+
 计算 B[i]的 下三角各元素的乘积，直接乘入B[i] ；
+
 计算 B[i]的 上三角 各元素的乘积，记为 tmp，并乘入B[i] ；
+
 返回 B 。
+
 复杂度分析：
+
 **时间复杂度** $O(N)$ ： 其中 N 为数组长度，两轮遍历数组 a，使用O(N) 时间。
+
 **空间复杂度** $O(1)$ ： 变量 tmp 使用常数大小额外空间（数组 b作为返回值，不计入复杂度考虑）。
 
 作者：jyd
+
 链接：https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/solution/mian-shi-ti-66-gou-jian-cheng-ji-shu-zu-biao-ge-fe/
+
 来源：力扣（LeetCode）
+
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 #### 代码
