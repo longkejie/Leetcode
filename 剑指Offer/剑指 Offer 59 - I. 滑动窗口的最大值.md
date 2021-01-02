@@ -68,20 +68,31 @@ public:
 窗口对应的数据结构为 双端队列 ，本题使用 单调队列 即可解决以上问题。遍历数组时，每轮保证单调队列 deque ：
 
 deque内 仅包含窗口内的元素 ⇒ 每轮窗口滑动移除了元素 nums[i - 1] ，需将 deque内的对应元素一起删除。
+
 deque 内的元素 非严格递减 ⇒ 每轮窗口滑动添加了元素 nums[j + 1] ，需将 deque 内所有 < nums[j + 1] 的元素删除。
+
 算法流程：
+
 1.**初始化**： 双端队列 deque ，结果列表 ans ，数组长度 n ；
 
 2.**滑动窗口**： 左边界范围 i∈[1−k,n+1−k] ，右边界范围 j∈[0,n−1] ；
-	a.若 i > 0且 队首元素 deque[0] == 被删除元素 nums[i - 1],则队首元素出队；
-	b.删除 deque内所有 < nums[j]的元素，以保持 deque 递减；
-	c.将nums[j] 添加至 deque尾部；
-	d.若已形成窗口（即 i≥0 ）：将窗口最大值（即队首元素 deque[0] ）添加至列表 ans 。
+
+​	a.若 i > 0且 队首元素 deque[0] == 被删除元素 nums[i - 1],则队首元素出队；
+
+​	b.删除 deque内所有 < nums[j]的元素，以保持 deque 递减；
+
+​	c.将nums[j] 添加至 deque尾部；
+
+​	d.若已形成窗口（即 i≥0 ）：将窗口最大值（即队首元素 deque[0] ）添加至列表 ans 。
+
 3.**返回值**： 返回结果列表 ans 。
 
 作者：jyd
+
 链接：https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-i-hua-dong-chuang-kou-de-zui-da-1-6/
+
 来源：力扣（LeetCode）
+
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 #### 代码
