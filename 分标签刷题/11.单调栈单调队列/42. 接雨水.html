@@ -1,0 +1,2239 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>42. 接雨水 · Summary</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="85. 最大矩形.html" />
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"longkejie","repo":"Leetcode","type":"star","size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    One Question Per Day
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../One_question_per_day/1. 前言.html">
+            
+                <a href="../../One_question_per_day/1. 前言.html">
+            
+                    
+                    1. 前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../One_question_per_day/1004. 最大连续1的个数 III.html">
+            
+                <a href="../../One_question_per_day/1004. 最大连续1的个数 III.html">
+            
+                    
+                    1004. 最大连续1的个数 III
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../One_question_per_day/1018. 可被5整除的二进制前缀.html">
+            
+                <a href="../../One_question_per_day/1018. 可被5整除的二进制前缀.html">
+            
+                    
+                    1018. 可被5整除的二进制前缀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../One_question_per_day/103. 二叉树的锯齿形层序遍历.html">
+            
+                <a href="../../One_question_per_day/103. 二叉树的锯齿形层序遍历.html">
+            
+                    
+                    103. 二叉树的锯齿形层序遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../One_question_per_day/1046. 最后一块石头的重量.html">
+            
+                <a href="../../One_question_per_day/1046. 最后一块石头的重量.html">
+            
+                    
+                    1046. 最后一块石头的重量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../One_question_per_day/1047. 删除字符串中的所有相邻重复项.html">
+            
+                <a href="../../One_question_per_day/1047. 删除字符串中的所有相邻重复项.html">
+            
+                    
+                    1047. 删除字符串中的所有相邻重复项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../One_question_per_day/118. 杨辉三角.html">
+            
+                <a href="../../One_question_per_day/118. 杨辉三角.html">
+            
+                    
+                    118. 杨辉三角
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../One_question_per_day/1202. 交换字符串中的元素.html">
+            
+                <a href="../../One_question_per_day/1202. 交换字符串中的元素.html">
+            
+                    
+                    1202. 交换字符串中的元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../One_question_per_day/1208. 尽可能使字符串相等.html">
+            
+                <a href="../../One_question_per_day/1208. 尽可能使字符串相等.html">
+            
+                    
+                    1208. 尽可能使字符串相等
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../One_question_per_day/131. 分割回文串.html">
+            
+                <a href="../../One_question_per_day/131. 分割回文串.html">
+            
+                    
+                    131. 分割回文串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../../One_question_per_day/1319. 连通网络的操作次数.html">
+            
+                <a href="../../One_question_per_day/1319. 连通网络的操作次数.html">
+            
+                    
+                    1319. 连通网络的操作次数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../../One_question_per_day/132. 分割回文串 II.html">
+            
+                <a href="../../One_question_per_day/132. 分割回文串 II.html">
+            
+                    
+                    132. 分割回文串 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../../One_question_per_day/135. 分发糖果.html">
+            
+                <a href="../../One_question_per_day/135. 分发糖果.html">
+            
+                    
+                    135. 分发糖果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../../One_question_per_day/1370. 上升下降字符串.html">
+            
+                <a href="../../One_question_per_day/1370. 上升下降字符串.html">
+            
+                    
+                    1370. 上升下降字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../../One_question_per_day/1423. 可获得的最大点数.html">
+            
+                <a href="../../One_question_per_day/1423. 可获得的最大点数.html">
+            
+                    
+                    1423. 可获得的最大点数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="../../One_question_per_day/147. 对链表进行插入排序.html">
+            
+                <a href="../../One_question_per_day/147. 对链表进行插入排序.html">
+            
+                    
+                    147. 对链表进行插入排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="../../One_question_per_day/148. 排序链表.html">
+            
+                <a href="../../One_question_per_day/148. 排序链表.html">
+            
+                    
+                    148. 排序链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="../../One_question_per_day/1579. 保证图可完全遍历.html">
+            
+                <a href="../../One_question_per_day/1579. 保证图可完全遍历.html">
+            
+                    
+                    1579. 保证图可完全遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="../../One_question_per_day/1631. 最小体力消耗路径.html">
+            
+                <a href="../../One_question_per_day/1631. 最小体力消耗路径.html">
+            
+                    
+                    1631. 最小体力消耗路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="../../One_question_per_day/164. 最大间距.html">
+            
+                <a href="../../One_question_per_day/164. 最大间距.html">
+            
+                    
+                    164. 最大间距
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="../../One_question_per_day/188. 买卖股票的最佳时机 IV.html">
+            
+                <a href="../../One_question_per_day/188. 买卖股票的最佳时机 IV.html">
+            
+                    
+                    188. 买卖股票的最佳时机 IV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="../../One_question_per_day/204. 计数质数.html">
+            
+                <a href="../../One_question_per_day/204. 计数质数.html">
+            
+                    
+                    204. 计数质数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="../../One_question_per_day/205. 同构字符串.html">
+            
+                <a href="../../One_question_per_day/205. 同构字符串.html">
+            
+                    
+                    205. 同构字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="../../One_question_per_day/217. 存在重复元素.html">
+            
+                <a href="../../One_question_per_day/217. 存在重复元素.html">
+            
+                    
+                    217. 存在重复元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="../../One_question_per_day/222. 完全二叉树的节点个数.html">
+            
+                <a href="../../One_question_per_day/222. 完全二叉树的节点个数.html">
+            
+                    
+                    222. 完全二叉树的节点个数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="../../One_question_per_day/228. 汇总区间.html">
+            
+                <a href="../../One_question_per_day/228. 汇总区间.html">
+            
+                    
+                    228. 汇总区间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="../../One_question_per_day/239. 滑动窗口最大值.html">
+            
+                <a href="../../One_question_per_day/239. 滑动窗口最大值.html">
+            
+                    
+                    239. 滑动窗口最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="../../One_question_per_day/242. 有效的字母异位词.html">
+            
+                <a href="../../One_question_per_day/242. 有效的字母异位词.html">
+            
+                    
+                    242. 有效的字母异位词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="../../One_question_per_day/290. 单词规律.html">
+            
+                <a href="../../One_question_per_day/290. 单词规律.html">
+            
+                    
+                    290. 单词规律
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.30" data-path="../../One_question_per_day/303. 区域和检索 - 数组不可变.html">
+            
+                <a href="../../One_question_per_day/303. 区域和检索 - 数组不可变.html">
+            
+                    
+                    303. 区域和检索 - 数组不可变
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.31" data-path="../../One_question_per_day/304. 二维区域和检索 - 矩阵不可变.html">
+            
+                <a href="../../One_question_per_day/304. 二维区域和检索 - 矩阵不可变.html">
+            
+                    
+                    304. 二维区域和检索 - 矩阵不可变
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.32" data-path="../../One_question_per_day/316. 去除重复字母.html">
+            
+                <a href="../../One_question_per_day/316. 去除重复字母.html">
+            
+                    
+                    316. 去除重复字母
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.33" data-path="../../One_question_per_day/331. 验证二叉树的前序序列化.html">
+            
+                <a href="../../One_question_per_day/331. 验证二叉树的前序序列化.html">
+            
+                    
+                    331. 验证二叉树的前序序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.34" data-path="../../One_question_per_day/338. 比特位计数.html">
+            
+                <a href="../../One_question_per_day/338. 比特位计数.html">
+            
+                    
+                    338. 比特位计数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.35" data-path="../../One_question_per_day/34. 在排序数组中查找元素的第一个和最后一个位置.html">
+            
+                <a href="../../One_question_per_day/34. 在排序数组中查找元素的第一个和最后一个位置.html">
+            
+                    
+                    34. 在排序数组中查找元素的第一个和最后一个位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.36" data-path="../../One_question_per_day/354. 俄罗斯套娃信封问题.html">
+            
+                <a href="../../One_question_per_day/354. 俄罗斯套娃信封问题.html">
+            
+                    
+                    354. 俄罗斯套娃信封问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.37" data-path="../../One_question_per_day/376. 摆动序列.html">
+            
+                <a href="../../One_question_per_day/376. 摆动序列.html">
+            
+                    
+                    376. 摆动序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.38" data-path="../../One_question_per_day/387. 字符串中的第一个唯一字符.html">
+            
+                <a href="../../One_question_per_day/387. 字符串中的第一个唯一字符.html">
+            
+                    
+                    387. 字符串中的第一个唯一字符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.39" data-path="../../One_question_per_day/389. 找不同.html">
+            
+                <a href="../../One_question_per_day/389. 找不同.html">
+            
+                    
+                    389. 找不同
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.40" data-path="../../One_question_per_day/395. 至少有K个重复字符的最长子串.html">
+            
+                <a href="../../One_question_per_day/395. 至少有K个重复字符的最长子串.html">
+            
+                    
+                    395. 至少有K个重复字符的最长子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.41" data-path="../../One_question_per_day/399. 除法求值.html">
+            
+                <a href="../../One_question_per_day/399. 除法求值.html">
+            
+                    
+                    399. 除法求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.42" data-path="../../One_question_per_day/424. 替换后的最长重复字符.html">
+            
+                <a href="../../One_question_per_day/424. 替换后的最长重复字符.html">
+            
+                    
+                    424. 替换后的最长重复字符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.43" data-path="../../One_question_per_day/435. 无重叠区间.html">
+            
+                <a href="../../One_question_per_day/435. 无重叠区间.html">
+            
+                    
+                    435. 无重叠区间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.44" data-path="../../One_question_per_day/452. 用最少数量的箭引爆气球.html">
+            
+                <a href="../../One_question_per_day/452. 用最少数量的箭引爆气球.html">
+            
+                    
+                    452. 用最少数量的箭引爆气球
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.45" data-path="../../One_question_per_day/454. 四数相加 II.html">
+            
+                <a href="../../One_question_per_day/454. 四数相加 II.html">
+            
+                    
+                    454. 四数相加 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.46" data-path="../../One_question_per_day/455. 分发饼干.html">
+            
+                <a href="../../One_question_per_day/455. 分发饼干.html">
+            
+                    
+                    455. 分发饼干
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.47" data-path="../../One_question_per_day/48. 旋转图像.html">
+            
+                <a href="../../One_question_per_day/48. 旋转图像.html">
+            
+                    
+                    48. 旋转图像
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.48" data-path="../../One_question_per_day/49. 字母异位词分组.html">
+            
+                <a href="../../One_question_per_day/49. 字母异位词分组.html">
+            
+                    
+                    49. 字母异位词分组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.49" data-path="../../One_question_per_day/503. 下一个更大元素 II.html">
+            
+                <a href="../../One_question_per_day/503. 下一个更大元素 II.html">
+            
+                    
+                    503. 下一个更大元素 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.50" data-path="../../One_question_per_day/509. 斐波那契数.html">
+            
+                <a href="../../One_question_per_day/509. 斐波那契数.html">
+            
+                    
+                    509. 斐波那契数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.51" data-path="../../One_question_per_day/547. 省份数量.html">
+            
+                <a href="../../One_question_per_day/547. 省份数量.html">
+            
+                    
+                    547. 省份数量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.52" data-path="../../One_question_per_day/561. 数组拆分 I.html">
+            
+                <a href="../../One_question_per_day/561. 数组拆分 I.html">
+            
+                    
+                    561. 数组拆分 I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.53" data-path="../../One_question_per_day/566. 重塑矩阵.html">
+            
+                <a href="../../One_question_per_day/566. 重塑矩阵.html">
+            
+                    
+                    566. 重塑矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.54" data-path="../../One_question_per_day/567. 字符串的排列.html">
+            
+                <a href="../../One_question_per_day/567. 字符串的排列.html">
+            
+                    
+                    567. 字符串的排列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.55" data-path="../../One_question_per_day/605. 种花问题.html">
+            
+                <a href="../../One_question_per_day/605. 种花问题.html">
+            
+                    
+                    605. 种花问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.56" data-path="../../One_question_per_day/62. 不同路径.html">
+            
+                <a href="../../One_question_per_day/62. 不同路径.html">
+            
+                    
+                    62. 不同路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.57" data-path="../../One_question_per_day/628. 三个数的最大乘积.html">
+            
+                <a href="../../One_question_per_day/628. 三个数的最大乘积.html">
+            
+                    
+                    628. 三个数的最大乘积
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.58" data-path="../../One_question_per_day/649. Dota2 参议院.html">
+            
+                <a href="../../One_question_per_day/649. Dota2 参议院.html">
+            
+                    
+                    649. Dota2 参议院
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.59" data-path="../../One_question_per_day/665. 非递减数列.html">
+            
+                <a href="../../One_question_per_day/665. 非递减数列.html">
+            
+                    
+                    665. 非递减数列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.60" data-path="../../One_question_per_day/674. 最长连续递增序列.html">
+            
+                <a href="../../One_question_per_day/674. 最长连续递增序列.html">
+            
+                    
+                    674. 最长连续递增序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.61" data-path="../../One_question_per_day/684. 冗余连接.html">
+            
+                <a href="../../One_question_per_day/684. 冗余连接.html">
+            
+                    
+                    684. 冗余连接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.62" data-path="../../One_question_per_day/697. 数组的度.html">
+            
+                <a href="../../One_question_per_day/697. 数组的度.html">
+            
+                    
+                    697. 数组的度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.63" data-path="../../One_question_per_day/703. 数据流中的第 K 大元素.html">
+            
+                <a href="../../One_question_per_day/703. 数据流中的第 K 大元素.html">
+            
+                    
+                    703. 数据流中的第 K 大元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.64" data-path="../../One_question_per_day/714. 买卖股票的最佳时机含手续费.html">
+            
+                <a href="../../One_question_per_day/714. 买卖股票的最佳时机含手续费.html">
+            
+                    
+                    714. 买卖股票的最佳时机含手续费
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.65" data-path="../../One_question_per_day/721. 账户合并.html">
+            
+                <a href="../../One_question_per_day/721. 账户合并.html">
+            
+                    
+                    721. 账户合并
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.66" data-path="../../One_question_per_day/724. 寻找数组的中心索引.html">
+            
+                <a href="../../One_question_per_day/724. 寻找数组的中心索引.html">
+            
+                    
+                    724. 寻找数组的中心索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.67" data-path="../../One_question_per_day/738. 单调递增的数字.html">
+            
+                <a href="../../One_question_per_day/738. 单调递增的数字.html">
+            
+                    
+                    738. 单调递增的数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.68" data-path="../../One_question_per_day/746. 使用最小花费爬楼梯.html">
+            
+                <a href="../../One_question_per_day/746. 使用最小花费爬楼梯.html">
+            
+                    
+                    746. 使用最小花费爬楼梯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.69" data-path="../../One_question_per_day/767. 重构字符串.html">
+            
+                <a href="../../One_question_per_day/767. 重构字符串.html">
+            
+                    
+                    767. 重构字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.70" data-path="../../One_question_per_day/778. 水位上升的泳池中游泳.html">
+            
+                <a href="../../One_question_per_day/778. 水位上升的泳池中游泳.html">
+            
+                    
+                    778. 水位上升的泳池中游泳
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.71" data-path="../../One_question_per_day/830. 较大分组的位置.html">
+            
+                <a href="../../One_question_per_day/830. 较大分组的位置.html">
+            
+                    
+                    830. 较大分组的位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.72" data-path="../../One_question_per_day/839. 相似字符串组.html">
+            
+                <a href="../../One_question_per_day/839. 相似字符串组.html">
+            
+                    
+                    839. 相似字符串组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.73" data-path="../../One_question_per_day/842. 将数组拆分成斐波那契序列.html">
+            
+                <a href="../../One_question_per_day/842. 将数组拆分成斐波那契序列.html">
+            
+                    
+                    842. 将数组拆分成斐波那契序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.74" data-path="../../One_question_per_day/86. 分隔链表.html">
+            
+                <a href="../../One_question_per_day/86. 分隔链表.html">
+            
+                    
+                    86. 分隔链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.75" data-path="../../One_question_per_day/860. 柠檬水找零.html">
+            
+                <a href="../../One_question_per_day/860. 柠檬水找零.html">
+            
+                    
+                    860. 柠檬水找零
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.76" data-path="../../One_question_per_day/861. 翻转矩阵后的得分.html">
+            
+                <a href="../../One_question_per_day/861. 翻转矩阵后的得分.html">
+            
+                    
+                    861. 翻转矩阵后的得分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.77" data-path="../../One_question_per_day/947. 移除最多的同行或同列石头.html">
+            
+                <a href="../../One_question_per_day/947. 移除最多的同行或同列石头.html">
+            
+                    
+                    947. 移除最多的同行或同列石头
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.78" data-path="../../One_question_per_day/978. 最长湍流子数组.html">
+            
+                <a href="../../One_question_per_day/978. 最长湍流子数组.html">
+            
+                    
+                    978. 最长湍流子数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.79" data-path="../../One_question_per_day/989. 数组形式的整数加法.html">
+            
+                <a href="../../One_question_per_day/989. 数组形式的整数加法.html">
+            
+                    
+                    989. 数组形式的整数加法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    分标签刷题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    1.数组
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" >
+            
+                <span>
+            
+                    
+                    1.简单
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1.1" data-path="../1.数组/1.简单/1588. 所有奇数长度子数组的和.html">
+            
+                <a href="../1.数组/1.简单/1588. 所有奇数长度子数组的和.html">
+            
+                    
+                    1588. 所有奇数长度子数组的和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.1.2" data-path="../1.数组/1.简单/977.有序数组的平方.html">
+            
+                <a href="../1.数组/1.简单/977.有序数组的平方.html">
+            
+                    
+                    977.有序数组的平方
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.1.3" data-path="../1.数组/1.简单/面试题 17.10. 主要元素.html">
+            
+                <a href="../1.数组/1.简单/面试题 17.10. 主要元素.html">
+            
+                    
+                    面试题 17.10. 主要元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                    10.字典树
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1.1" data-path="../10.字典树/2.中等/648. 单词替换.html">
+            
+                <a href="../10.字典树/2.中等/648. 单词替换.html">
+            
+                    
+                    648. 单词替换
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" >
+            
+                <span>
+            
+                    
+                    11.单调栈单调队列
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.3.1" data-path="42. 接雨水.html">
+            
+                <a href="42. 接雨水.html">
+            
+                    
+                    42. 接雨水
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="85. 最大矩形.html">
+            
+                <a href="85. 最大矩形.html">
+            
+                    
+                    85. 最大矩形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" >
+            
+                <span>
+            
+                    
+                    2.搜索大冲浪
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1.1" data-path="../2.搜索大冲浪/2.中等/1091. 二进制矩阵中的最短路径.html">
+            
+                <a href="../2.搜索大冲浪/2.中等/1091. 二进制矩阵中的最短路径.html">
+            
+                    
+                    1091. 二进制矩阵中的最短路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.1.2" data-path="../2.搜索大冲浪/2.中等/417. 太平洋大西洋水流问题.html">
+            
+                <a href="../2.搜索大冲浪/2.中等/417. 太平洋大西洋水流问题.html">
+            
+                    
+                    417. 太平洋大西洋水流问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.1.3" data-path="../2.搜索大冲浪/2.中等/994.腐烂的橘子.html">
+            
+                <a href="../2.搜索大冲浪/2.中等/994.腐烂的橘子.html">
+            
+                    
+                    994.腐烂的橘子
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" >
+            
+                <span>
+            
+                    
+                    3.树
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" >
+            
+                <span>
+            
+                    
+                    1.简单
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1.1" data-path="../3.树/1.简单/剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.html">
+            
+                <a href="../3.树/1.简单/剑指 Offer 68 - I. 二叉搜索树的最近公共祖先.html">
+            
+                    
+                    剑指 Offer 68 - I. 二叉搜索树的最近公共祖先
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.1.2" data-path="../3.树/1.简单/剑指 Offer 68 - II. 二叉树的最近公共祖先.html">
+            
+                <a href="../3.树/1.简单/剑指 Offer 68 - II. 二叉树的最近公共祖先.html">
+            
+                    
+                    剑指 Offer 68 - II. 二叉树的最近公共祖先
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.2.1" data-path="../3.树/2.中等/剑指 Offer 33. 二叉搜索树的后序遍历序列.html">
+            
+                <a href="../3.树/2.中等/剑指 Offer 33. 二叉搜索树的后序遍历序列.html">
+            
+                    
+                    剑指 Offer 33. 二叉搜索树的后序遍历序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2.2" data-path="../3.树/2.中等/剑指 Offer 34. 二叉树中和为某一值的路径.html">
+            
+                <a href="../3.树/2.中等/剑指 Offer 34. 二叉树中和为某一值的路径.html">
+            
+                    
+                    剑指 Offer 34. 二叉树中和为某一值的路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2.3" data-path="../3.树/2.中等/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                <a href="../3.树/2.中等/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                    
+                    剑指 Offer 36. 二叉搜索树与双向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" >
+            
+                <span>
+            
+                    
+                    4.链表
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1.1" data-path="../4.链表/2.中等/剑指 Offer 35. 复杂链表的复制.html">
+            
+                <a href="../4.链表/2.中等/剑指 Offer 35. 复杂链表的复制.html">
+            
+                    
+                    剑指 Offer 35. 复杂链表的复制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.1.2" data-path="../4.链表/2.中等/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                <a href="../4.链表/2.中等/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                    
+                    剑指 Offer 36. 二叉搜索树与双向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" >
+            
+                <span>
+            
+                    
+                    5.分治算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.1" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.1.1" data-path="../5.分治算法/2.中等/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                <a href="../5.分治算法/2.中等/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                    
+                    剑指 Offer 36. 二叉搜索树与双向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" >
+            
+                <span>
+            
+                    
+                    6.字符串
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.8.1" >
+            
+                <span>
+            
+                    
+                    1.简单
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.8.1.1" data-path="../6.字符串/1.简单/剑指 Offer 58 - II. 左旋转字符串.html">
+            
+                <a href="../6.字符串/1.简单/剑指 Offer 58 - II. 左旋转字符串.html">
+            
+                    
+                    剑指 Offer 58 - II. 左旋转字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" >
+            
+                <span>
+            
+                    
+                    7.队列
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.9.1" >
+            
+                <span>
+            
+                    
+                    1.简单
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.9.1.1" data-path="../7.队列/1.简单/剑指 Offer 59 - I. 滑动窗口的最大值.html">
+            
+                <a href="../7.队列/1.简单/剑指 Offer 59 - I. 滑动窗口的最大值.html">
+            
+                    
+                    剑指 Offer 59 - I. 滑动窗口的最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.2" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.9.2.1" data-path="../7.队列/2.中等/剑指 Offer 59 - II. 队列的最大值.html">
+            
+                <a href="../7.队列/2.中等/剑指 Offer 59 - II. 队列的最大值.html">
+            
+                    
+                    剑指 Offer 59 - II. 队列的最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" >
+            
+                <span>
+            
+                    
+                    8.动态规划
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.10.1" >
+            
+                <span>
+            
+                    
+                    股票问题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.10.1.1" data-path="../8.动态规划/股票问题/股票问题大赏.html">
+            
+                <a href="../8.动态规划/股票问题/股票问题大赏.html">
+            
+                    
+                    股票问题大赏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" >
+            
+                <span>
+            
+                    
+                    9.贪心算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.11.1" >
+            
+                <span>
+            
+                    
+                    2.中等
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.11.1.1" data-path="../9.贪心算法/2.中等/1353. 最多可以参加的会议数目.html">
+            
+                <a href="../9.贪心算法/2.中等/1353. 最多可以参加的会议数目.html">
+            
+                    
+                    1353. 最多可以参加的会议数目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    剑指Offer
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../剑指Offer/剑指 Offer 35. 复杂链表的复制.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 35. 复杂链表的复制.html">
+            
+                    
+                    剑指 Offer 35. 复杂链表的复制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../剑指Offer/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 36. 二叉搜索树与双向链表.html">
+            
+                    
+                    剑指 Offer 36. 二叉搜索树与双向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../剑指Offer/剑指 Offer 39. 数组中出现次数超过一半的数字.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 39. 数组中出现次数超过一半的数字.html">
+            
+                    
+                    剑指 Offer 39. 数组中出现次数超过一半的数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../剑指Offer/剑指 Offer 58 - II. 左旋转字符串.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 58 - II. 左旋转字符串.html">
+            
+                    
+                    剑指 Offer 58 - II. 左旋转字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../剑指Offer/剑指 Offer 59 - I. 滑动窗口的最大值.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 59 - I. 滑动窗口的最大值.html">
+            
+                    
+                    剑指 Offer 59 - I. 滑动窗口的最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../剑指Offer/剑指 Offer 59 - II. 队列的最大值.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 59 - II. 队列的最大值.html">
+            
+                    
+                    剑指 Offer 59 - II. 队列的最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../剑指Offer/剑指 Offer 63. 股票的最大利润.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 63. 股票的最大利润.html">
+            
+                    
+                    剑指 Offer 63. 股票的最大利润
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../剑指Offer/剑指 Offer 64. 求1+2+…+n.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 64. 求1+2+…+n.html">
+            
+                    
+                    剑指 Offer 64. 求1+2+…+n
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../../剑指Offer/剑指 Offer 66. 构建乘积数组.html">
+            
+                <a href="../../剑指Offer/剑指 Offer 66. 构建乘积数组.html">
+            
+                    
+                    剑指 Offer 66. 构建乘积数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >42. 接雨水</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <pre class="language-"><code class="lang-cpp"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+<span class="token keyword">public</span><span class="token operator">:</span>
+    <span class="token keyword">int</span> mmax<span class="token punctuation">[</span><span class="token number">30005</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> hei<span class="token punctuation">[</span><span class="token number">30005</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> <span class="token function">trap</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span> height<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> temp <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>height<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> ans<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>   
+        stack<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span> stk<span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> height<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">++</span>i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>stk<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span> height<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;=</span> height<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                stk<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">continue</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>stk<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> height<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&gt;=</span> height<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                hei<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">+=</span> hei<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">+</span> height<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+                ans <span class="token operator">-=</span> mmax<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>stk<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    ans <span class="token operator">+=</span> height<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token punctuation">(</span>i <span class="token operator">-</span> stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">-</span> hei<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">+</span> height<span class="token punctuation">[</span>stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+                    hei<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+                stk<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            mmax<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>stk<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                mmax<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span>i <span class="token operator">-</span> stk<span class="token punctuation">.</span><span class="token function">top</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> height<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">-</span>hei<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+                ans <span class="token operator">+=</span> mmax<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            stk<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> ans<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://github.com/longkejie" target="_blank">longkejie</a>&#xFF0C;&#x4F7F;&#x7528;<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 4.0&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <i>updated</i> 2021-03-12 04:41:50 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="85. 最大矩形.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 85. 最大矩形">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"42. 接雨水","level":"1.3.3.1","depth":3,"next":{"title":"85. 最大矩形","level":"1.3.3.2","depth":3,"path":"分标签刷题/11.单调栈单调队列/85. 最大矩形.md","ref":"分标签刷题/11.单调栈单调队列/85. 最大矩形.md","articles":[]},"previous":{"title":"11.单调栈单调队列","level":"1.3.3","depth":2,"ref":"","articles":[{"title":"42. 接雨水","level":"1.3.3.1","depth":3,"path":"分标签刷题/11.单调栈单调队列/42. 接雨水.md","ref":"分标签刷题/11.单调栈单调队列/42. 接雨水.md","articles":[]},{"title":"85. 最大矩形","level":"1.3.3.2","depth":3,"path":"分标签刷题/11.单调栈单调队列/85. 最大矩形.md","ref":"分标签刷题/11.单调栈单调队列/85. 最大矩形.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","github-buttons","editlink","copy-code-button","page-footer-ex","anchor-navigation-ex","expandable-chapters-small","prism","-highlight","-lunr","-search","search-pro","donate","splitter"],"ignores":["_book","node_modules"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"flow":"typescript"}},"editlink":{"label":"Edit This Page","multilingual":false,"base":"https://github.com/longkejie/Leetcode/tree/main"},"page-footer-ex":{"copyright":"By [longkejie](https://github.com/longkejie)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"<i>updated</i>"},"splitter":{},"search-pro":{},"donate":{"alipay":"https://gitee.com/long_kejie/image/raw/master/IMG_7429(20201122-223221).JPG","alipayText":"支付宝捐赠","button":"Donate","title":"","wechat":"https://gitee.com/long_kejie/image/raw/master/IMG_7427(20201122-223206).JPG","wechatText":"微信捐赠"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"github-buttons":{"buttons":[{"user":"longkejie","repo":"Leetcode","type":"star","size":"small"}]},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Summary","gitbook":"*"},"file":{"path":"分标签刷题/11.单调栈单调队列/42. 接雨水.md","mtime":"2021-03-12T04:41:50.643Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-12T04:42:49.709Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
